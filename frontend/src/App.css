@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+/* .container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+} */
+
+/* h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+} */
+
+/* .controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+} */
+
+/* select,
+input[type="text"] {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+} */
+
+.transactions-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0px;
+
+}
+
+.transactions-table th,
+.transactions-table td {
+  text-align: left;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.transactions-table th {
+  background-color: #79f2ffad;
+}
+
+/* .pagination {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.pagination button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.statistics {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.statistics h2 {
+  color: #333;
+} */
+
+.charts {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  border: 2px solid black;
+}
+
+.bar-chart{
+  width: 49%;
+  padding: 20px;
+  border-right: 2px solid black;
+}
+.pie-chart {
+  padding: 20px;
+  width: 30%;
+  margin-right: 100px;
+}
